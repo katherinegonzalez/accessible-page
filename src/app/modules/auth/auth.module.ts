@@ -4,6 +4,8 @@ import { AuthContainerComponent } from './containers/auth-container/auth-contain
 import { AuthComponent } from './components/auth/auth.component';
 import { AuthRoutingModule } from './auth-routing.module';
 import { RouterModule } from '@angular/router';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -12,7 +14,9 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     AuthRoutingModule,
-    RouterModule
+    RouterModule,
+    MatInputModule,
+    MatButtonModule
   ]
 })
 export class AuthModule { }

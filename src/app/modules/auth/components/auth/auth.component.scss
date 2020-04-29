@@ -1,0 +1,23 @@
+.auth {
+    &__container{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #0000ff36
+    }
+
+    &__content {
+        background-color: #FFFFFF;
+        padding: 60px 50px;
+        border-radius: 3px;
+        box-shadow: 2px 2px #b0b0b059;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
