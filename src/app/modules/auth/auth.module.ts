@@ -6,6 +6,7 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { RouterModule } from '@angular/router';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -13,10 +14,11 @@ import {MatButtonModule} from '@angular/material/button';
   declarations: [AuthContainerComponent, AuthComponent],
   imports: [
     CommonModule,
-    AuthRoutingModule,
     RouterModule,
+    AuthRoutingModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    ReactiveFormsModule
   ]
 })
 export class AuthModule { }
