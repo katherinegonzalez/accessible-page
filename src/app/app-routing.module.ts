@@ -4,15 +4,20 @@ import { MainContainerComponent } from './modules/core/containers/main-container
 
 
 const routes: Routes = [
+
   {
     path: '',
+    redirectTo: '/login',
+    pathMatch: 'full' },
+  {
+    path: 'index',
     component: MainContainerComponent
   },
   {
     path: 'login',
     loadChildren: () => import('./modules/auth/auth.module').then(m => m.AuthModule)
   }
-  
+
 ];
 
 @NgModule({

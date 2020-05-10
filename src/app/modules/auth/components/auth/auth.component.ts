@@ -25,7 +25,7 @@ export class AuthComponent implements OnInit {
 
     const formResult = this.authForm.value;
     console.log('Click en login', formResult);
-    this.router.navigate([''], { relativeTo: this.route });
+    this.router.navigate(['index']);
   }
 
   createForm(){
