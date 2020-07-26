@@ -32,5 +32,55 @@
       color: #060A24;
     }
   }
+
 }
+
+.header {
+  &__content {
+    color: #060A24;
+    padding: 80px 100px;
+  }
+
+  &__title {
+    font-size: 64px;
+    margin-bottom: 30px;
+  }
+
+  &__description {
+    font-size: 16px;
+    margin-bottom: 56px;
+  }
+
+  &__button-mas {
+    background-color: #00F3BB;
+    padding: 16px 59px;
+    font-size: 18px;
+    color: #060A24;
+  }
+}
+
+.section1 {
+  &__background {
+    background-color: #2b2b90;
+    transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    box-sizing: border-box;
+    border: 1px solid #2b2b90;
+  }
+
+  &__content {
+    height: 100%;
+    transform: skewY(4deg);
+    padding: 100px;
+  }
+
+  &__title {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+  }
+}
+
+
 
