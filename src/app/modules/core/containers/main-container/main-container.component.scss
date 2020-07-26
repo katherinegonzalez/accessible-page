@@ -1,0 +1,36 @@
+
+/* navigtor menu styles */
+.menu {
+  &__content {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 100px;;
+  }
+
+  &__logo {
+    border-radius: 100%;
+    padding: 1px;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    background-color: #2b2b90;
+  }
+
+  &__container-sections {
+
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 16px;
+
+    & a {
+      text-decoration: none;
+      margin-left: 48px;
+      color: #060A24;
+    }
+  }
+}
+
