@@ -5,10 +5,10 @@
      <img alt="logo página" src="../../../../../assets/logo-accesibilidad.png" />
      <!-- https://www.flaticon.es/icono-gratis/accesibilidad_1665751?term=accesibility&page=1&position=34 -->
    </div>
-  <div class="menu__container-sections">
-    <a href="#section1">Sección1</a>
-    <a href="#section2">Sección2</a>
-    <a href="#section3">Sección3</a>
+  <div class="menu__container-sections"><!--https://stackoverflow.com/questions/36101756/angular2-routing-with-hashtag-to-page-anchor-->
+    <a [routerLink] = "['./']"  fragment="section1">Sección1</a>
+    <a [routerLink] = "['./']"  fragment="section2">Sección2</a>
+    <a [routerLink] = "['./']"  fragment="section3">Sección3</a>
     <a href="#section4">Sección4</a>
   </div>
 </nav>
@@ -32,9 +32,22 @@
       </div>
     </div>
   </section>
-  <section id="section2">
+  <section class="section2__container" id="section2">
+    <div class="section2__accesibility-image">
+      <img alt="accesibilidad_imagen" src="../../../../../assets/phone.png" />
+    </div>
+    <div class="section2__content">
+      <h2 class="section__title section2__title">What is Accesibility?</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id efficitur quam, id lobortis turpis. Ut egestas fermentum dignissim. Nullam quis dui dolor. Nam congue ipsum ante, nec malesuada nibh vulputate ac.
+      </p>
+      <p>
+        Sed a felis dolor. In hac habitasse platea dictumst. Sed dolor velit, rutrum a leo fermentum, laoreet finibus purus. Fusce dignissim, massa a condimentum lacinia, lorem metus ultricies tellus, non posuere turpis augue vulputate ante.
+      </p>
+    </div>
   </section>
   <section id="section3">
+    <h2 class="section__title">Accesibility Videos</h2>
   </section>
   <section id="section4">
   </section>

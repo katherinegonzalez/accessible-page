@@ -7,7 +7,7 @@ const routes: Routes = [
 
   {
     path: '',
-    redirectTo: '/login',
+    redirectTo: '/index',
     pathMatch: 'full' },
   {
     path: 'index',
@@ -21,7 +21,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    anchorScrolling: 'enabled',
+    scrollPositionRestoration: 'enabled',
+    scrollOffset: [0, 64] // [x, y]
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
