@@ -18,13 +18,19 @@
     background-color: #2b2b90;
   }
 
-  &__container-sections {
+  /*&__container-sections {
+    display: flex;
+    flex: 1;
+  }*/
+
+  &__list-sections {
 
     display: flex;
     flex: 1;
     align-items: flex-end;
     justify-content: flex-end;
     font-size: 16px;
+    list-style: none;
 
     & a {
       text-decoration: none;
@@ -32,6 +38,8 @@
       color: #060A24;
     }
   }
+
+
 
 }
 
@@ -61,6 +69,7 @@
 
 .section__title {
   font-size: 48px;
+  margin-bottom: 26px;
 }
 
 .section1 {
@@ -148,6 +157,10 @@
 .section3 {
   &__container {
     padding: 0 85px;
+  }
+
+  &__content {
+    text-align: center;
   }
 }
 
