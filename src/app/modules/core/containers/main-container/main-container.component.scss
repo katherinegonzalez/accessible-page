@@ -23,24 +23,6 @@
     flex: 1;
   }*/
 
-  &__list-sections {
-
-    display: flex;
-    flex: 1;
-    align-items: flex-end;
-    justify-content: flex-end;
-    font-size: 16px;
-    list-style: none;
-
-    & a {
-      text-decoration: none;
-      margin-left: 48px;
-      color: #060A24;
-    }
-  }
-
-
-
 }
 
 .header {

@@ -7,10 +7,15 @@
    </div>
   <!--<div class="menu__container-sections"> --> <!--https://stackoverflow.com/questions/36101756/angular2-routing-with-hashtag-to-page-anchor-->
     <app-menu-list class="menu__list-sections">
-      <app-menu-list-item><li role="none"><a rol="menuitem" [routerLink] = "['./']"  fragment="section1" tabindex="0">Episodes</a></li></app-menu-list-item>
-      <app-menu-list-item><li role="none"><a rol="menuitem" [routerLink] = "['./']"  fragment="section2" tabindex="-1">What is Accesibility?</a></li></app-menu-list-item>
-      <app-menu-list-item><li role="none"><a rol="menuitem" [routerLink] = "['./']"  fragment="section3" tabindex="-1">Accesibility Videos</a></li></app-menu-list-item>
-      <app-menu-list-item><li role="none"><a rol="menuitem" href="#section4">Sección4</a></li></app-menu-list-item>
+      <app-menu-list-item fragment="section1">Episodes</app-menu-list-item>
+      <app-menu-list-item fragment="section2">What is Accesibility?</app-menu-list-item>
+      <app-menu-list-item fragment="section3">Accesibility Videos</app-menu-list-item>
+      <app-menu-list-item fragment="section4">Sección4</app-menu-list-item>
+      <!--<app-menu-list-item><li role="none"><a rol="menuitem" [routerLink] = "['./']"  fragment="section1">Episodes</a></li></app-menu-list-item>
+      <app-menu-list-item><li role="none"><a rol="menuitem" [routerLink] = "['./']"  fragment="section2">What is Accesibility?</a></li></app-menu-list-item>
+      <app-menu-list-item><li role="none"><a rol="menuitem" [routerLink] = "['./']"  fragment="section3">Accesibility Videos</a></li></app-menu-list-item>
+      <app-menu-list-item><li role="none"><a rol="menuitem" href="#section4">Sección4</a></li></app-menu-list-item> -->
+
     </app-menu-list>
   <!--</div> -->
 </nav>
